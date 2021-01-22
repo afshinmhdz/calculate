@@ -22,7 +22,7 @@ function add() {
     number:enteredNumber,
     result:currentResult
   }
-  logEntries.push(logEntry);
+  logEntries.push(logEntry.operation,logEntry.result );
   console.log(logEntries);
 }
 addBtn.addEventListener("click", add);
